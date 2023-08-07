@@ -1,0 +1,365 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix ldp: <http://www.w3.org/ns/ldp#>.
+@prefix fua_currency: <https://www.nicos-rd.com/data/codes/currency#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+<https://www.nicos-rd.com/data/codes/currency#> a ldp:Container;
+    ldp:contains fua_currency:afn, fua_currency:eur, fua_currency:all, fua_currency:dzd, fua_currency:usd, fua_currency:aoa, fua_currency:xcd, fua_currency:ars, fua_currency:amd, fua_currency:awg, fua_currency:aud, fua_currency:azn, fua_currency:bsd, fua_currency:bhd, fua_currency:bdt, fua_currency:bbd, fua_currency:byn, fua_currency:bzd, fua_currency:xof, fua_currency:bmd, fua_currency:inr, fua_currency:btn, fua_currency:bob, fua_currency:bov, fua_currency:bam, fua_currency:bwp, fua_currency:nok, fua_currency:brl, fua_currency:bnd, fua_currency:bgn, fua_currency:bif, fua_currency:cve, fua_currency:khr, fua_currency:xaf, fua_currency:cad, fua_currency:kyd, fua_currency:clp, fua_currency:clf, fua_currency:cny, fua_currency:cop, fua_currency:cou, fua_currency:kmf, fua_currency:cdf, fua_currency:nzd, fua_currency:crc, fua_currency:hrk, fua_currency:cup, fua_currency:cuc, fua_currency:ang, fua_currency:czk, fua_currency:dkk, fua_currency:djf, fua_currency:dop, fua_currency:egp, fua_currency:svc, fua_currency:ern, fua_currency:szl, fua_currency:etb, fua_currency:fkp, fua_currency:fjd, fua_currency:xpf, fua_currency:gmd, fua_currency:gel, fua_currency:ghs, fua_currency:gip, fua_currency:gtq, fua_currency:gbp, fua_currency:gnf, fua_currency:gyd, fua_currency:htg, fua_currency:hnl, fua_currency:hkd, fua_currency:huf, fua_currency:isk, fua_currency:idr, fua_currency:xdr, fua_currency:irr, fua_currency:iqd, fua_currency:ils, fua_currency:jmd, fua_currency:jpy, fua_currency:jod, fua_currency:kzt, fua_currency:kes, fua_currency:kpw, fua_currency:krw, fua_currency:kwd, fua_currency:kgs, fua_currency:lak, fua_currency:lbp, fua_currency:lsl, fua_currency:zar, fua_currency:lrd, fua_currency:lyd, fua_currency:chf, fua_currency:mop, fua_currency:mkd, fua_currency:mga, fua_currency:mwk, fua_currency:myr, fua_currency:mvr, fua_currency:mru, fua_currency:mur, fua_currency:xua, fua_currency:mxn, fua_currency:mxv, fua_currency:mdl, fua_currency:mnt, fua_currency:mad, fua_currency:mzn, fua_currency:mmk, fua_currency:nad, fua_currency:npr, fua_currency:nio, fua_currency:ngn, fua_currency:omr, fua_currency:pkr, fua_currency:pab, fua_currency:pgk, fua_currency:pyg, fua_currency:pen, fua_currency:php, fua_currency:pln, fua_currency:qar, fua_currency:ron, fua_currency:rub, fua_currency:rwf, fua_currency:shp, fua_currency:wst, fua_currency:stn, fua_currency:sar, fua_currency:rsd, fua_currency:scr, fua_currency:sll, fua_currency:sgd, fua_currency:xsu, fua_currency:sbd, fua_currency:sos, fua_currency:ssp, fua_currency:lkr, fua_currency:sdg, fua_currency:srd, fua_currency:sek, fua_currency:che, fua_currency:chw, fua_currency:syp, fua_currency:twd, fua_currency:tjs, fua_currency:tzs, fua_currency:thb, fua_currency:top, fua_currency:ttd, fua_currency:tnd, fua_currency:try, fua_currency:tmt, fua_currency:ugx, fua_currency:uah, fua_currency:aed, fua_currency:usn, fua_currency:uyu, fua_currency:uyi, fua_currency:uyw, fua_currency:uzs, fua_currency:vuv, fua_currency:ves, fua_currency:vnd, fua_currency:yer, fua_currency:zmw, fua_currency:zwl, fua_currency:xba, fua_currency:xbb, fua_currency:xbc, fua_currency:xbd, fua_currency:xts, fua_currency:xxx, fua_currency:xau, fua_currency:xpd, fua_currency:xpt, fua_currency:xag.
+fua_currency:afn a ldp:RDFSource;
+    rdfs:label "Afghani"@en.
+fua_currency:eur a ldp:RDFSource;
+    rdfs:label "Euro"@en.
+fua_currency:all a ldp:RDFSource;
+    rdfs:label "Lek"@en.
+fua_currency:dzd a ldp:RDFSource;
+    rdfs:label "Algerian Dinar"@en.
+fua_currency:usd a ldp:RDFSource;
+    rdfs:label "US Dollar"@en.
+fua_currency:aoa a ldp:RDFSource;
+    rdfs:label "Kwanza"@en.
+fua_currency:xcd a ldp:RDFSource;
+    rdfs:label "East Caribbean Dollar"@en.
+fua_currency:ars a ldp:RDFSource;
+    rdfs:label "Argentine Peso"@en.
+fua_currency:amd a ldp:RDFSource;
+    rdfs:label "Armenian Dram"@en.
+fua_currency:awg a ldp:RDFSource;
+    rdfs:label "Aruban Florin"@en.
+fua_currency:aud a ldp:RDFSource;
+    rdfs:label "Australian Dollar"@en.
+fua_currency:azn a ldp:RDFSource;
+    rdfs:label "Azerbaijan Manat"@en.
+fua_currency:bsd a ldp:RDFSource;
+    rdfs:label "Bahamian Dollar"@en.
+fua_currency:bhd a ldp:RDFSource;
+    rdfs:label "Bahraini Dinar"@en.
+fua_currency:bdt a ldp:RDFSource;
+    rdfs:label "Taka"@en.
+fua_currency:bbd a ldp:RDFSource;
+    rdfs:label "Barbados Dollar"@en.
+fua_currency:byn a ldp:RDFSource;
+    rdfs:label "Belarusian Ruble"@en.
+fua_currency:bzd a ldp:RDFSource;
+    rdfs:label "Belize Dollar"@en.
+fua_currency:xof a ldp:RDFSource;
+    rdfs:label "CFA Franc BCEAO"@en.
+fua_currency:bmd a ldp:RDFSource;
+    rdfs:label "Bermudian Dollar"@en.
+fua_currency:inr a ldp:RDFSource;
+    rdfs:label "Indian Rupee"@en.
+fua_currency:btn a ldp:RDFSource;
+    rdfs:label "Ngultrum"@en.
+fua_currency:bob a ldp:RDFSource;
+    rdfs:label "Boliviano"@en.
+fua_currency:bov a ldp:RDFSource;
+    rdfs:label "Mvdol"@en.
+fua_currency:bam a ldp:RDFSource;
+    rdfs:label "Convertible Mark"@en.
+fua_currency:bwp a ldp:RDFSource;
+    rdfs:label "Pula"@en.
+fua_currency:nok a ldp:RDFSource;
+    rdfs:label "Norwegian Krone"@en.
+fua_currency:brl a ldp:RDFSource;
+    rdfs:label "Brazilian Real"@en.
+fua_currency:bnd a ldp:RDFSource;
+    rdfs:label "Brunei Dollar"@en.
+fua_currency:bgn a ldp:RDFSource;
+    rdfs:label "Bulgarian Lev"@en.
+fua_currency:bif a ldp:RDFSource;
+    rdfs:label "Burundi Franc"@en.
+fua_currency:cve a ldp:RDFSource;
+    rdfs:label "Cabo Verde Escudo"@en.
+fua_currency:khr a ldp:RDFSource;
+    rdfs:label "Riel"@en.
+fua_currency:xaf a ldp:RDFSource;
+    rdfs:label "CFA Franc BEAC"@en.
+fua_currency:cad a ldp:RDFSource;
+    rdfs:label "Canadian Dollar"@en.
+fua_currency:kyd a ldp:RDFSource;
+    rdfs:label "Cayman Islands Dollar"@en.
+fua_currency:clp a ldp:RDFSource;
+    rdfs:label "Chilean Peso"@en.
+fua_currency:clf a ldp:RDFSource;
+    rdfs:label "Unidad de Fomento"@en.
+fua_currency:cny a ldp:RDFSource;
+    rdfs:label "Yuan Renminbi"@en.
+fua_currency:cop a ldp:RDFSource;
+    rdfs:label "Colombian Peso"@en.
+fua_currency:cou a ldp:RDFSource;
+    rdfs:label "Unidad de Valor Real"@en.
+fua_currency:kmf a ldp:RDFSource;
+    rdfs:label "Comorian Franc"@en.
+fua_currency:cdf a ldp:RDFSource;
+    rdfs:label "Congolese Franc"@en.
+fua_currency:nzd a ldp:RDFSource;
+    rdfs:label "New Zealand Dollar"@en.
+fua_currency:crc a ldp:RDFSource;
+    rdfs:label "Costa Rican Colon"@en.
+fua_currency:hrk a ldp:RDFSource;
+    rdfs:label "Kuna"@en.
+fua_currency:cup a ldp:RDFSource;
+    rdfs:label "Cuban Peso"@en.
+fua_currency:cuc a ldp:RDFSource;
+    rdfs:label "Peso Convertible"@en.
+fua_currency:ang a ldp:RDFSource;
+    rdfs:label "Netherlands Antillean Guilder"@en.
+fua_currency:czk a ldp:RDFSource;
+    rdfs:label "Czech Koruna"@en.
+fua_currency:dkk a ldp:RDFSource;
+    rdfs:label "Danish Krone"@en.
+fua_currency:djf a ldp:RDFSource;
+    rdfs:label "Djibouti Franc"@en.
+fua_currency:dop a ldp:RDFSource;
+    rdfs:label "Dominican Peso"@en.
+fua_currency:egp a ldp:RDFSource;
+    rdfs:label "Egyptian Pound"@en.
+fua_currency:svc a ldp:RDFSource;
+    rdfs:label "El Salvador Colon"@en.
+fua_currency:ern a ldp:RDFSource;
+    rdfs:label "Nakfa"@en.
+fua_currency:szl a ldp:RDFSource;
+    rdfs:label "Lilangeni"@en.
+fua_currency:etb a ldp:RDFSource;
+    rdfs:label "Ethiopian Birr"@en.
+fua_currency:fkp a ldp:RDFSource;
+    rdfs:label "Falkland Islands Pound"@en.
+fua_currency:fjd a ldp:RDFSource;
+    rdfs:label "Fiji Dollar"@en.
+fua_currency:xpf a ldp:RDFSource;
+    rdfs:label "CFP Franc"@en.
+fua_currency:gmd a ldp:RDFSource;
+    rdfs:label "Dalasi"@en.
+fua_currency:gel a ldp:RDFSource;
+    rdfs:label "Lari"@en.
+fua_currency:ghs a ldp:RDFSource;
+    rdfs:label "Ghana Cedi"@en.
+fua_currency:gip a ldp:RDFSource;
+    rdfs:label "Gibraltar Pound"@en.
+fua_currency:gtq a ldp:RDFSource;
+    rdfs:label "Quetzal"@en.
+fua_currency:gbp a ldp:RDFSource;
+    rdfs:label "Pound Sterling"@en.
+fua_currency:gnf a ldp:RDFSource;
+    rdfs:label "Guinean Franc"@en.
+fua_currency:gyd a ldp:RDFSource;
+    rdfs:label "Guyana Dollar"@en.
+fua_currency:htg a ldp:RDFSource;
+    rdfs:label "Gourde"@en.
+fua_currency:hnl a ldp:RDFSource;
+    rdfs:label "Lempira"@en.
+fua_currency:hkd a ldp:RDFSource;
+    rdfs:label "Hong Kong Dollar"@en.
+fua_currency:huf a ldp:RDFSource;
+    rdfs:label "Forint"@en.
+fua_currency:isk a ldp:RDFSource;
+    rdfs:label "Iceland Krona"@en.
+fua_currency:idr a ldp:RDFSource;
+    rdfs:label "Rupiah"@en.
+fua_currency:xdr a ldp:RDFSource;
+    rdfs:label "SDR (Special Drawing Right)"@en.
+fua_currency:irr a ldp:RDFSource;
+    rdfs:label "Iranian Rial"@en.
+fua_currency:iqd a ldp:RDFSource;
+    rdfs:label "Iraqi Dinar"@en.
+fua_currency:ils a ldp:RDFSource;
+    rdfs:label "New Israeli Sheqel"@en.
+fua_currency:jmd a ldp:RDFSource;
+    rdfs:label "Jamaican Dollar"@en.
+fua_currency:jpy a ldp:RDFSource;
+    rdfs:label "Yen"@en.
+fua_currency:jod a ldp:RDFSource;
+    rdfs:label "Jordanian Dinar"@en.
+fua_currency:kzt a ldp:RDFSource;
+    rdfs:label "Tenge"@en.
+fua_currency:kes a ldp:RDFSource;
+    rdfs:label "Kenyan Shilling"@en.
+fua_currency:kpw a ldp:RDFSource;
+    rdfs:label "North Korean Won"@en.
+fua_currency:krw a ldp:RDFSource;
+    rdfs:label "Won"@en.
+fua_currency:kwd a ldp:RDFSource;
+    rdfs:label "Kuwaiti Dinar"@en.
+fua_currency:kgs a ldp:RDFSource;
+    rdfs:label "Som"@en.
+fua_currency:lak a ldp:RDFSource;
+    rdfs:label "Lao Kip"@en.
+fua_currency:lbp a ldp:RDFSource;
+    rdfs:label "Lebanese Pound"@en.
+fua_currency:lsl a ldp:RDFSource;
+    rdfs:label "Loti"@en.
+fua_currency:zar a ldp:RDFSource;
+    rdfs:label "Rand"@en.
+fua_currency:lrd a ldp:RDFSource;
+    rdfs:label "Liberian Dollar"@en.
+fua_currency:lyd a ldp:RDFSource;
+    rdfs:label "Libyan Dinar"@en.
+fua_currency:chf a ldp:RDFSource;
+    rdfs:label "Swiss Franc"@en.
+fua_currency:mop a ldp:RDFSource;
+    rdfs:label "Pataca"@en.
+fua_currency:mkd a ldp:RDFSource;
+    rdfs:label "Denar"@en.
+fua_currency:mga a ldp:RDFSource;
+    rdfs:label "Malagasy Ariary"@en.
+fua_currency:mwk a ldp:RDFSource;
+    rdfs:label "Malawi Kwacha"@en.
+fua_currency:myr a ldp:RDFSource;
+    rdfs:label "Malaysian Ringgit"@en.
+fua_currency:mvr a ldp:RDFSource;
+    rdfs:label "Rufiyaa"@en.
+fua_currency:mru a ldp:RDFSource;
+    rdfs:label "Ouguiya"@en.
+fua_currency:mur a ldp:RDFSource;
+    rdfs:label "Mauritius Rupee"@en.
+fua_currency:xua a ldp:RDFSource;
+    rdfs:label "ADB Unit of Account"@en.
+fua_currency:mxn a ldp:RDFSource;
+    rdfs:label "Mexican Peso"@en.
+fua_currency:mxv a ldp:RDFSource;
+    rdfs:label "Mexican Unidad de Inversion (UDI)"@en.
+fua_currency:mdl a ldp:RDFSource;
+    rdfs:label "Moldovan Leu"@en.
+fua_currency:mnt a ldp:RDFSource;
+    rdfs:label "Tugrik"@en.
+fua_currency:mad a ldp:RDFSource;
+    rdfs:label "Moroccan Dirham"@en.
+fua_currency:mzn a ldp:RDFSource;
+    rdfs:label "Mozambique Metical"@en.
+fua_currency:mmk a ldp:RDFSource;
+    rdfs:label "Kyat"@en.
+fua_currency:nad a ldp:RDFSource;
+    rdfs:label "Namibia Dollar"@en.
+fua_currency:npr a ldp:RDFSource;
+    rdfs:label "Nepalese Rupee"@en.
+fua_currency:nio a ldp:RDFSource;
+    rdfs:label "Cordoba Oro"@en.
+fua_currency:ngn a ldp:RDFSource;
+    rdfs:label "Naira"@en.
+fua_currency:omr a ldp:RDFSource;
+    rdfs:label "Rial Omani"@en.
+fua_currency:pkr a ldp:RDFSource;
+    rdfs:label "Pakistan Rupee"@en.
+fua_currency:pab a ldp:RDFSource;
+    rdfs:label "Balboa"@en.
+fua_currency:pgk a ldp:RDFSource;
+    rdfs:label "Kina"@en.
+fua_currency:pyg a ldp:RDFSource;
+    rdfs:label "Guarani"@en.
+fua_currency:pen a ldp:RDFSource;
+    rdfs:label "Sol"@en.
+fua_currency:php a ldp:RDFSource;
+    rdfs:label "Philippine Peso"@en.
+fua_currency:pln a ldp:RDFSource;
+    rdfs:label "Zloty"@en.
+fua_currency:qar a ldp:RDFSource;
+    rdfs:label "Qatari Rial"@en.
+fua_currency:ron a ldp:RDFSource;
+    rdfs:label "Romanian Leu"@en.
+fua_currency:rub a ldp:RDFSource;
+    rdfs:label "Russian Ruble"@en.
+fua_currency:rwf a ldp:RDFSource;
+    rdfs:label "Rwanda Franc"@en.
+fua_currency:shp a ldp:RDFSource;
+    rdfs:label "Saint Helena Pound"@en.
+fua_currency:wst a ldp:RDFSource;
+    rdfs:label "Tala"@en.
+fua_currency:stn a ldp:RDFSource;
+    rdfs:label "Dobra"@en.
+fua_currency:sar a ldp:RDFSource;
+    rdfs:label "Saudi Riyal"@en.
+fua_currency:rsd a ldp:RDFSource;
+    rdfs:label "Serbian Dinar"@en.
+fua_currency:scr a ldp:RDFSource;
+    rdfs:label "Seychelles Rupee"@en.
+fua_currency:sll a ldp:RDFSource;
+    rdfs:label "Leone"@en.
+fua_currency:sgd a ldp:RDFSource;
+    rdfs:label "Singapore Dollar"@en.
+fua_currency:xsu a ldp:RDFSource;
+    rdfs:label "Sucre"@en.
+fua_currency:sbd a ldp:RDFSource;
+    rdfs:label "Solomon Islands Dollar"@en.
+fua_currency:sos a ldp:RDFSource;
+    rdfs:label "Somali Shilling"@en.
+fua_currency:ssp a ldp:RDFSource;
+    rdfs:label "South Sudanese Pound"@en.
+fua_currency:lkr a ldp:RDFSource;
+    rdfs:label "Sri Lanka Rupee"@en.
+fua_currency:sdg a ldp:RDFSource;
+    rdfs:label "Sudanese Pound"@en.
+fua_currency:srd a ldp:RDFSource;
+    rdfs:label "Surinam Dollar"@en.
+fua_currency:sek a ldp:RDFSource;
+    rdfs:label "Swedish Krona"@en.
+fua_currency:che a ldp:RDFSource;
+    rdfs:label "WIR Euro"@en.
+fua_currency:chw a ldp:RDFSource;
+    rdfs:label "WIR Franc"@en.
+fua_currency:syp a ldp:RDFSource;
+    rdfs:label "Syrian Pound"@en.
+fua_currency:twd a ldp:RDFSource;
+    rdfs:label "New Taiwan Dollar"@en.
+fua_currency:tjs a ldp:RDFSource;
+    rdfs:label "Somoni"@en.
+fua_currency:tzs a ldp:RDFSource;
+    rdfs:label "Tanzanian Shilling"@en.
+fua_currency:thb a ldp:RDFSource;
+    rdfs:label "Baht"@en.
+fua_currency:top a ldp:RDFSource;
+    rdfs:label "Pa'anga"@en.
+fua_currency:ttd a ldp:RDFSource;
+    rdfs:label "Trinidad and Tobago Dollar"@en.
+fua_currency:tnd a ldp:RDFSource;
+    rdfs:label "Tunisian Dinar"@en.
+fua_currency:try a ldp:RDFSource;
+    rdfs:label "Turkish Lira"@en.
+fua_currency:tmt a ldp:RDFSource;
+    rdfs:label "Turkmenistan New Manat"@en.
+fua_currency:ugx a ldp:RDFSource;
+    rdfs:label "Uganda Shilling"@en.
+fua_currency:uah a ldp:RDFSource;
+    rdfs:label "Hryvnia"@en.
+fua_currency:aed a ldp:RDFSource;
+    rdfs:label "UAE Dirham"@en.
+fua_currency:usn a ldp:RDFSource;
+    rdfs:label "US Dollar (Next day)"@en.
+fua_currency:uyu a ldp:RDFSource;
+    rdfs:label "Peso Uruguayo"@en.
+fua_currency:uyi a ldp:RDFSource;
+    rdfs:label "Uruguay Peso en Unidades Indexadas (UI)"@en.
+fua_currency:uyw a ldp:RDFSource;
+    rdfs:label "Unidad Previsional"@en.
+fua_currency:uzs a ldp:RDFSource;
+    rdfs:label "Uzbekistan Sum"@en.
+fua_currency:vuv a ldp:RDFSource;
+    rdfs:label "Vatu"@en.
+fua_currency:ves a ldp:RDFSource;
+    rdfs:label "Bolívar Soberano"@en.
+fua_currency:vnd a ldp:RDFSource;
+    rdfs:label "Dong"@en.
+fua_currency:yer a ldp:RDFSource;
+    rdfs:label "Yemeni Rial"@en.
+fua_currency:zmw a ldp:RDFSource;
+    rdfs:label "Zambian Kwacha"@en.
+fua_currency:zwl a ldp:RDFSource;
+    rdfs:label "Zimbabwe Dollar"@en.
+fua_currency:xba a ldp:RDFSource;
+    rdfs:label "Bond Markets Unit European Composite Unit (EURCO)"@en.
+fua_currency:xbb a ldp:RDFSource;
+    rdfs:label "Bond Markets Unit European Monetary Unit (E.M.U.-6)"@en.
+fua_currency:xbc a ldp:RDFSource;
+    rdfs:label "Bond Markets Unit European Unit of Account 9 (E.U.A.-9)"@en.
+fua_currency:xbd a ldp:RDFSource;
+    rdfs:label "Bond Markets Unit European Unit of Account 17 (E.U.A.-17)"@en.
+fua_currency:xts a ldp:RDFSource;
+    rdfs:label "Codes specifically reserved for testing purposes"@en.
+fua_currency:xxx a ldp:RDFSource;
+    rdfs:label "The codes assigned for transactions where no currency is involved"@en.
+fua_currency:xau a ldp:RDFSource;
+    rdfs:label "Gold"@en.
+fua_currency:xpd a ldp:RDFSource;
+    rdfs:label "Palladium"@en.
+fua_currency:xpt a ldp:RDFSource;
+    rdfs:label "Platinum"@en.
+fua_currency:xag a ldp:RDFSource;
+    rdfs:label "Silver"@en.
