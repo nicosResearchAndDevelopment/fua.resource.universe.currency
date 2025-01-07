@@ -1,8 +1,8 @@
 const
-    util       = require('@nrd/fua.core.util'),
+    util       = require('@fua/core.util'),
     path       = require('path'),
     fs         = require('fs/promises'),
-    rdf        = require('@nrd/fua.module.rdf'),
+    rdf        = require('@fua/module.rdf'),
     dataParser = require('./parser.js'),
     inputFile  = path.join(__dirname, '../data/currencies.csv'),
     outputFile = path.join(__dirname, '../data/currencies.ttl');

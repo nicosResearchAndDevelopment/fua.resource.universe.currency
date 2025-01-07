@@ -1,6 +1,6 @@
 const
-    persist    = require('@nrd/fua.module.persistence'),
-    dfc        = require('@nrd/fua.module.dfc'),
+    persist    = require('@fua/module.persistence'),
+    dfc        = require('@fua/module.dfc'),
     context    = require('../data/context.json'),
     factory    = new persist.TermFactory(context),
     dataParser = new dfc.CSVTransformer({

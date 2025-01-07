@@ -1,4 +1,4 @@
-# @nrd/fua.resource.universe.currency
+# @fua/resource.universe.currency
 
 - **Model:** [`currencies.ttl`](data/currencies.ttl)
 - **Source:** [`currencies.csv`](data/currencies.csv)
